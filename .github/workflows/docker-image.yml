@@ -25,5 +25,5 @@ jobs:
         with:
           push: true
           tags: ghcr.io/drjole/texlive-docker:latest
-          cache-from: type=registry,ref=ghcr.io/drjole/mitk:buildcache
-          cache-to: type=registry,ref=ghcr.io/drjole/mitk:buildcache,mode=max
+          cache-from: type=registry,ref=ghcr.io/drjole/texlive-docker:buildcache
+          cache-to: type=registry,ref=ghcr.io/drjole/texlive-docker:buildcache,mode=max
