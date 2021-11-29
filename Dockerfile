@@ -1,6 +1,5 @@
 FROM alpine:latest
 
-RUN mkdir /install-tl
 WORKDIR /install-tl
 
 COPY texlive.profile .
