@@ -11,12 +11,8 @@ RUN apk add --no-cache ca-certificates perl wget tar xz && \
 
 ENV PATH="/usr/local/texlive/2021/bin/x86_64-linuxmusl:$PATH"
 
-RUN tlmgr install collection-latex collection-latexextra
-RUN tlmgr install babel-german
+RUN tlmgr install scheme-full
 
 RUN cd && \
     rm -rf /install-tl && \
-    apk del ca-certificates perl wget tar xz && \
-    mkdir /document
-
-WORKDIR /document
+    apk del ca-certificates perl wget tar xz
