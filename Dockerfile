@@ -8,7 +8,7 @@ RUN apt-get update && \
     ca-certificates \
     perl \
     tzdata \
-    wget \
+    wget
 ENV DEBIAN_FRONTEND=newt
 
 RUN mkdir install-tl && \
