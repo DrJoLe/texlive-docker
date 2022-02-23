@@ -20,3 +20,5 @@ WORKDIR /work/install-tl
 COPY texlive.profile .
 
 RUN perl install-tl --profile=texlive.profile
+
+ENV PATH="/usr/local/texlive/2021/bin/x86_64-linux:$PATH"
