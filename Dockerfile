@@ -18,4 +18,4 @@ WORKDIR /work/install-tl
 
 COPY texlive.profile .
 
-RUN install-tl --profile=texlive.profile
+RUN ./install-tl --profile=texlive.profile
