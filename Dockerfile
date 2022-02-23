@@ -5,9 +5,10 @@ WORKDIR /work
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
-    wget \
     ca-certificates \
-    tzdata
+    perl \
+    tzdata \
+    wget \
 ENV DEBIAN_FRONTEND=newt
 
 RUN mkdir install-tl && \

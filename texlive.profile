@@ -1,15 +1,55 @@
-# texlive.profile written on Fri Oct  8 17:11:31 2021 UTC
+# texlive.profile written on Wed Feb 23 09:05:37 2022 UTC
 # It will NOT be updated and reflects only the
 # installation profile at installation time.
-selected_scheme scheme-minimal
-TEXDIR /usr/local/texlive/2021
+selected_scheme scheme-custom
+TEXDIR /opt/2021
 TEXMFCONFIG ~/.texlive2021/texmf-config
 TEXMFHOME ~/texmf
-TEXMFLOCAL /usr/local/texlive/texmf-local
-TEXMFSYSCONFIG /usr/local/texlive/2021/texmf-config
-TEXMFSYSVAR /usr/local/texlive/2021/texmf-var
+TEXMFLOCAL
+TEXMFSYSCONFIG /opt/2021/texmf-config
+TEXMFSYSVAR /opt/2021/texmf-var
 TEXMFVAR ~/.texlive2021/texmf-var
-binary_x86_64-linuxmusl 1
+binary_x86_64-linux 1
+collection-basic 1
+collection-bibtexextra 1
+collection-binextra 1
+collection-context 1
+collection-fontsextra 1
+collection-fontsrecommended 1
+collection-fontutils 1
+collection-formatsextra 1
+collection-games 1
+collection-humanities 1
+collection-langarabic 1
+collection-langchinese 1
+collection-langcjk 1
+collection-langcyrillic 1
+collection-langczechslovak 1
+collection-langenglish 1
+collection-langeuropean 1
+collection-langfrench 1
+collection-langgerman 1
+collection-langgreek 1
+collection-langitalian 1
+collection-langjapanese 1
+collection-langkorean 1
+collection-langother 1
+collection-langpolish 1
+collection-langportuguese 1
+collection-langspanish 1
+collection-latex 1
+collection-latexextra 1
+collection-latexrecommended 1
+collection-luatex 1
+collection-mathscience 1
+collection-metapost 1
+collection-music 1
+collection-pictures 1
+collection-plaingeneric 1
+collection-pstricks 1
+collection-publishers 1
+collection-texworks 1
+collection-xetex 1
 instopt_adjustpath 0
 instopt_adjustrepo 1
 instopt_letter 0
