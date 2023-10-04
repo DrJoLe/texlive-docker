@@ -22,4 +22,4 @@ COPY texlive.profile .
 
 RUN perl install-tl --profile=texlive.profile
 
-ENV PATH="/usr/local/texlive/2021/bin/x86_64-linux:$PATH"
+ENV PATH="/usr/local/texlive/current_year/bin/x86_64-linux:$PATH"
