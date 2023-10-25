@@ -25,6 +25,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: ghcr.io/drjole/texlive-docker:latest
+          tags: ghcr.io/drjole/texlive-docker:2023
           cache-from: type=registry,ref=ghcr.io/drjole/texlive-docker:buildcache
           cache-to: type=registry,ref=ghcr.io/drjole/texlive-docker:buildcache,mode=max
